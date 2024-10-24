@@ -1,1 +1,16 @@
-# CS-330
+For my final project in CS 330, I chose to create a 3D scene that represents an almost finished game of pool. This scene captures the moment when the majority of the balls have been potted, leaving only a few remaining, with the pool cue and triangle placed prominently on the table. The goal of the scene was to use various basic and complex shapes to accurately depict the objects typically found in a pool game setup, while ensuring that the representation aligned with the client’s needs.
+
+The project involves several 3D objects, each chosen and designed to clearly represent a pool game. The complex objects in the scene include the pool cue and the triangle rack. The pool cue was modeled using multiple primitive shapes—a cylinder for the main body, a slightly tapered cylinder for the ferrule, and a smaller cylinder for the tip. These shapes were combined and scaled accordingly to create a realistic appearance. For the texture, I applied polished wood for the main body, black wood for the ferrule, and blue chalk for the tip, aligning with a real-life pool cue. 
+
+The triangle rack is another complex object in the scene. To replicate the real-life triangular shape that holds the balls at the start of a game, I utilized 3 box meshs to outline the triangular form with a hole in the center, making it suitable for a pool setup. The goal was to create an object that had the correct shape and maintained a consistent visual style with the rest of the table.
+
+The remaining objects are simpler in nature, mainly consisting of spheres that represent the pool balls. These were designed using a basic sphere mesh and are positioned on the table to mimic the scattered layout of a game in progress. Each sphere was textured with distinct color patterns to differentiate between the solids and stripes, consistent with real pool balls. Additionally, I included a small cube as the chalk, another simple object placed on the side of the table. The chalk’s texture reflects its slightly rough and worn appearance, adding to the realism of the scene.
+
+Lighting and Camera
+For lighting, I incorporated two light sources to create a polished visualization of the 3D models. One is a white directional light to provide even coverage across the scene, ensuring that the objects remain visible from all camera angles. The second is a point light positioned above the table to simulate an overhead fixture, with a warm tint to emulate the ambient lighting commonly found in pool halls. The Phong shading model is applied, utilizing ambient, diffuse, and specular components to give the objects a realistic and polished look.
+
+The camera setup allows for both horizontal, vertical, and depth navigation around the 3D scene. The user can move through the scene using WASD for directional movement, QE for vertical control, and the mouse cursor to change the camera's orientation. The mouse scroll further controls the speed of camera movement, providing users with precise control. 
+
+Development Choices 
+My development choices were focused on simplicity while ensuring an accurate and recognizable representation of a pool game. Using basic shapes for objects like the spheres and chalk made the modeling process efficient, while applying transformations and combining shapes for the pool cue and triangle allowed for more complexity without exceeding the triangle count limit. 
+
